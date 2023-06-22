@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>8ab5dc57-90eb-4b4a-b45f-8af96d745ab9</UserSecretsId>
+    <UserSecretsId>a5ba4bb0-8afe-4ff8-a459-fd12b4d491e6</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,9 +25,5 @@
     <ProjectReference Include="..\StocksApp.Core\StocksApp.Core.csproj" />
     <ProjectReference Include="..\StocksApp.Infrastructure\StocksApp.Infrastructure.csproj" />
   </ItemGroup>
-
-	<ItemGroup>
-		<InternalsVisibleTo Include="Stocks.Integration.Tests" />
-	</ItemGroup>
 
 </Project>
